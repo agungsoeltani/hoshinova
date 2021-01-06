@@ -26,6 +26,8 @@ elif prt1_q == int("3"):
      qst_w = float(a3) / float(b3)
      print("waktu yang dibutuhkan dari jarak",a3,"km dengan kecepatan",b3,"km/jam adalah",qst_w,"jam")
      print("program selesai")
+else :
+     print("program selesai")
 
 
 
