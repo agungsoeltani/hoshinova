@@ -34,4 +34,5 @@ elif jwb == 3:
     exit() 
 else:
     print ('jawab yang benar!')
+    exit()
 
