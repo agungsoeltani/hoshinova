@@ -13,12 +13,19 @@ def kurang():
     x = a - b
     print ('pengurangan dari', a ,'dan', b ,'adalah : ', x)
 
+def discount():
+    x = int(input('masukan harga awal : '))
+    y = int(input('masukan diskon : '))
+    z = y * x / 100
+    print('jadi diskonnya adalah : ', z)
+
+
 #the output n input
 print('------program matematika------')
 print('pilih salah satu : ')
 
 def menu():
-     math = ['[1] Penjumlahan','[2] pengurangan','[3] Keluar']
+     math = ['[1] Penjumlahan','[2] pengurangan','[3] discount','[4] Keluar']
      for isi in math:
          print(isi)
 
@@ -31,7 +38,9 @@ if jwb == 1:
 elif jwb == 2:
     kurang()
 elif jwb == 3:
-    exit() 
+    discount()
+elif jwb == 4:
+    exit()
 else:
     print ('jawab yang benar!')
     exit()
